@@ -1,0 +1,11 @@
+<html>
+<h1> Local connection details </h1> 
+__IP__<br/>
+__TIME__<br/> <br/>
+
+Bit Torrent page: http://__IP__:9091 <br/>
+FTP at __IP__:2221 <br/>
+Hosted webpage __IP__:8000 <br/>
+<br>
+</html>
+
