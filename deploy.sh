@@ -1,6 +1,6 @@
 final=$(ifconfig | grep '192.' | awk '{print $2}') 
 timestamp=$(date +"%Y-%m-%d--%H:%M:%S")
-batteryper=%(termux-battery-status | grep 'percentage')
+batteryper=$(termux-battery-status | grep 'percentage' | awk '{print $2}')
 
 cp ./dispTemplate.txt ./index.htm
 sed -i "s/__IP__/"$final"/g" ./index.htm
